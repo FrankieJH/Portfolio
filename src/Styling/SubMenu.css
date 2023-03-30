@@ -21,7 +21,7 @@
     margin-left: 15px;
 }
 
-.DropdownLink {
+.Dropdown_Link {
     background: #414757;
     height: 60px;
     padding-left: 3rem;
@@ -32,7 +32,7 @@
     font-size: 18px;
 }
 
-.DropdownLink:hover {
+.Dropdown_Link:hover {
     background: #DE5B31;
     border-left: 4px solid #0B121D;
     cursor: pointer;

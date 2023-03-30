@@ -4,41 +4,41 @@ import { IoIosArrowUp } from "react-icons/io";
 
 export const MenuItems = [
     {
-        title: 'Home',
+        page: 'Home',
         path: '/Home',
         className: 'Nav_link'
     },
     {
-        title: 'My Work',
+        page: 'My Work',
         path: '/',
         iconClosed: <IoIosArrowDown />,
         iconOpened: <IoIosArrowUp />,
         className: 'Nav_link',
         subNav: [
             {
-                title: 'Project 00',
+                page: 'Project 00',
                 path: '/',
                 className: 'Nav_link'
             },
             {
-                title: 'Project 01',
+                page: 'Project 01',
                 path: '/',
                 className: 'Nav_link'
             },
             {
-                title: 'Project 02',
+                page: 'Project 02',
                 path: '/',
                 className: 'Nav_link'
             },
             {
-                title: 'Project 03',
+                page: 'Project 03',
                 path: '/',
                 className: 'Nav_link'
             },
         ]
     },
     {
-        title: 'Contact',
+        page: 'Contact',
         path: '/',
         className: 'Nav_link'
     },

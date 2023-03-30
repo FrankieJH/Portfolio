@@ -5,13 +5,13 @@
    position: fixed;
    display: flex;
    justify-content: space-between;
-   cursor: pointer;
 }
+
 .Navbar_logo {
-    align-self: start;
     margin-left: 20px;
     cursor: pointer;
 }
+
 .Menu_bars {
     width: 80px;
     margin-right: 20px;
