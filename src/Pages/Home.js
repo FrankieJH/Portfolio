@@ -6,7 +6,7 @@ function Home(){
         <div className="Home">
             {/* Hero section container  */}
             <div className="Hero_section">
-            <img className="Hero_image" src= {require('../Assets/HeroImg.jpg')} />
+                <img className="Hero_image" src= {require('../Assets/HeroImg.jpg')} />
                 <div className="Hero_overlay">
                     <p className="Style_2">Hello, my name is</p>
                     <h1 className="Style_1">FRANKIE <span id="Style_1_transparent">HRNDZ</span></h1>
