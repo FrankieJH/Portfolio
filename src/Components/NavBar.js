@@ -13,34 +13,35 @@ function Navbar() {
     const showSidebar = () => setSidebar(!sidebar);
     return(
         <>
-            <div className="Navbar">
-                <Link to="/Home">
-                    <img 
-                    className="Navbar_logo" 
-                    src={require('../Assets/letter-f-2.png')} />
-                </Link>
-                <Link to="#">
-                    <img 
-                    className="Menu_bars" 
-                    src={require('../Assets/menu-2.png')} 
-                    onClick={showSidebar}/>
-                </Link>
-            </div>
-             <nav className={sidebar ? 'Nav_menu active' : 'Nav_menu '}>
-                <ul className="Nav_menu_items">
-                    <li className="Navbar_toggle">
-                        <Link to="#" className="Menu_bars">
-                            <HiOutlineX className="close_icon" onClick={showSidebar}/>
-                        </Link>
-                    </li>
-                     {MenuItems.map((item, index) => {
-                        return <SubMenu 
-                                    item={item} 
-                                    key={index}  
-                                    onClick={showSidebar}/>;
-                      })}
-                </ul>
-            </nav> 
+        <div className="Navbar">
+            <Link to="/Home">
+                <img 
+                className="Navbar_logo" 
+                src={require('../Assets/letter-f-2.png')} />
+            </Link>
+            <Link to="#">
+                <img 
+                className="Menu_bars" 
+                src={require('../Assets/menu-2.png')} 
+                onClick={showSidebar}/>
+            </Link>
+        </div>
+            <nav className={sidebar ? 'Nav_menu active' : 'Nav_menu'}>
+            <ul className="Nav_menu_items">
+                <li className="Navbar_toggle">
+                    <Link to="#" className="Menu_bars">
+                        <HiOutlineX className="close_icon" onClick={showSidebar}/>
+                    </Link>
+                </li>
+                    {MenuItems.map((item, index) => {
+                    return(
+                        <SubMenu 
+                        item={item} 
+                        key={index}  
+                        onClick={showSidebar}/>
+                    )})}
+            </ul>
+        </nav> 
         </>
     )
 }
