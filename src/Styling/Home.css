@@ -1,7 +1,81 @@
+/* font styles */
+.Style_1 {
+  font-weight: 600;
+  font-size: 6.25rem;
+  font-family: 'Poppins';
+  color: #DE5B31;
+}
+
+#Style_1_transparent {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.Style_2 {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Roboto Mono';
+  color: #fff;
+}
+
 /* Hero section */
+.Hero_section {
+  height: 100vh;
+  width: 100vw;
+  grid-template: 10% 1fr 1fr 10% / 10% 1fr 2fr 10%;
+  display: grid;
+  position: relative;
+}
+
 .Hero_image {
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.Hero_overlay {
+  margin-bottom: 150px;
+  grid-area: 2 / 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Hero_overlay :nth-child(2) {
+  margin-top: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+.Hero_overlay :nth-child(3) {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.Scroll_indicator {
+  margin-left: 80px;
+  grid-area: 4 / 2 / span 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Indicator_image {
+  width: 60px;
+  margin-left: 20px;
+  transform: rotate(90deg);
+  animation: jumpInfinite 2s ease-in-out infinite;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
   }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
