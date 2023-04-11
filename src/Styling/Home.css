@@ -17,6 +17,29 @@
   font-family: 'Roboto Mono';
   color: #fff;
 }
+/* Navbar Container */
+.NavBar_Container {
+  z-index: 2;
+  position: sticky;
+} 
+
+/* SocialIcons Container */
+.SocialIcons_Container {
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* Email Container */
+.Email_Container {
+  grid-column-start: 4;
+  margin-right: 15px;
+  display: flex;
+  justify-self: end;
+  position: absolute;
+  z-index: 1;
+}
+
 
 /* Hero section */
 .Hero_section {
@@ -79,3 +102,4 @@
     margin-top: 0;
   }
 }
+

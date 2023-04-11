@@ -8,12 +8,13 @@
 }
 
 .Navbar_logo {
+    width: 80px;
     margin-left: 20px;
     cursor: pointer;
 }
 
 .Menu_bars {
-    width: 80px;
+    width: 60px;
     margin-right: 20px;
     transform: rotate(90deg);
     cursor: pointer;
@@ -29,7 +30,7 @@
     top:0;
     right: -100%;
     transition: 850ms;
-    background-color: #0B121D;
+    background-color:#08080A;
 }
 
 .Nav_menu.active {

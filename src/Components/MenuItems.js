@@ -5,12 +5,11 @@ import { IoIosArrowUp } from "react-icons/io";
 export const MenuItems = [
     {
         page: 'Home',
-        path: '/Home',
+        path: '/',
         className: 'Nav_link'
     },
     {
         page: 'My Work',
-        path: '/',
         iconClosed: <IoIosArrowDown />,
         iconOpened: <IoIosArrowUp />,
         className: 'Nav_link',

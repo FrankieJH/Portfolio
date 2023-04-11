@@ -5,8 +5,6 @@ import { MenuItems } from "./MenuItems";
 import { HiOutlineX } from "react-icons/hi";
 import SubMenu from './SubMenu';
 
-
-
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
 
@@ -14,16 +12,18 @@ function Navbar() {
     return(
         <>
         <div className="Navbar">
-            <Link to="/Home">
+            <Link to="/">
                 <img 
                 className="Navbar_logo" 
-                src={require('../Assets/letter-f-2.png')} />
+                src={require('../Assets/letter-f-2.png')}
+                alt="Logo" />
             </Link>
             <Link to="#">
                 <img 
                 className="Menu_bars" 
                 src={require('../Assets/menu-2.png')} 
-                onClick={showSidebar}/>
+                onClick={showSidebar} 
+                alt="Hamburger Menu"/>
             </Link>
         </div>
             <nav className={sidebar ? 'Nav_menu active' : 'Nav_menu'}>
