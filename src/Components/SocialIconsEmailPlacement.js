@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import '../Styling/SocialIcons_Placement.css';
+import '../Styling/SocialIconsEmailPlacement.css';
 
-function SocialIcons_Placement(){
+function SocialIconsEmailPlacement(){
     return(
-        <div className="SocialIcons_Placement">
+        <div className="SocialIconsEmailPlacement">
             <div className="SocialIcons_Container">
                 <ul>
                     <li>
@@ -26,8 +26,15 @@ function SocialIcons_Placement(){
                     </li>
                 </ul>
             </div>
+            <div className="EmailContainer">
+                <button   
+                onClick={(e) => 
+                {window.location.href ='mailto:example@email.com';}}>
+                kikohernandez91@yahoo.com</button>
+                <div id="email_line"></div>
+            </div>
         </div>
     )
 }
 
-export default SocialIcons_Placement;
+export default SocialIconsEmailPlacement;

@@ -13,7 +13,7 @@ function SubMenu({ item }) {
       to={item.path} 
       onClick={item.subNav && showSubnav}>
         <div className='Menu_items'>{item.page}</div>
-        <div>
+        <div className='iconOpened'>
             {item.subNav && subnavOpen
             ? item.iconOpened
             : item.subNav

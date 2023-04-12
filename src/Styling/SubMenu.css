@@ -4,11 +4,9 @@
   justify-content: space-between;
   z-index: 1;
   align-items: center;
-  padding: 20px;
   list-style: none;
   height: 60px;
   text-decoration: none;
-  font-size: 18px;
   font-family: 'Poppins';
 }
 
@@ -16,10 +14,6 @@
     background: #252831;
     border-left: 4px solid #DE5B31 ;
     cursor: pointer;
-}
-
-.Menu_items {
-    margin-left: 15px;
 }
 
 .Dropdown_Link {
@@ -30,7 +24,6 @@
     align-items: center;
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 18px;
 }
 /* TODO; find the difference between background color and background and when to use it */
 .Dropdown_Link:hover {
@@ -38,4 +31,76 @@
     cursor: pointer;
 }
 
+/* Media Query */
 
+/* screen size 50 or lower */
+@media only screen and (min-width: 50px) {
+
+  /* Hero section */
+.Menu_item_links {
+    justify-content: center;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.Dropdown_Link {
+    justify-content: center;
+    margin-left: 0px;
+    padding: 5px;
+    font-size: 8px;
+}
+
+.iconOpened :nth-child(1) {
+    margin-right: 0px;
+  }
+  
+}
+
+/* screen width size 150 - 279 */
+@media only screen and (min-width: 150px) {
+
+      /* Hero section */
+    .Menu_item_links {
+        font-size: 15px;
+    }
+    
+    .Dropdown_Link {
+        font-size: 10px;
+    }
+  
+  }
+
+
+/* screen width size 280 - 767 */
+@media only screen and (min-width: 280px) {
+
+  /* Hero section */
+    .Menu_item_links {
+        font-size: 16px;
+    }
+
+    .Dropdown_Link {
+        font-size: 15px;
+    }  
+  
+}
+
+
+/* screen width size 768 */
+@media only screen and (min-width: 768px) {
+
+  /* Hero section */
+    .Menu_item_links {
+        justify-content: space-between;
+        padding: 20px;
+      }
+      
+      .Menu_items {
+          margin-left: 15px;
+      }
+      
+      .Dropdown_Link {
+          font-size: 18px;
+      }
+  
+}

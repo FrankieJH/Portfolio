@@ -1,8 +1,7 @@
 import React from "react";
 import '../Styling/Home.css';
 import NavBar from '../Components/NavBar'
-import SocialIcons_Placement from "../Components/SocialIcons_Placement";
-import Email_Placement from "../Components/Email_Placement";
+import SocialIconsEmailPlacement from "../Components/SocialIconsEmailPlacement";
 
 function Home(){
     return(
@@ -10,15 +9,11 @@ function Home(){
             <div className="NavBar_Container">
                 <NavBar />
             </div>
-            {/* social icons component container */}
-            <div className="SocialIcons_Container">
-                <SocialIcons_Placement />
-            </div>
             {/* Hero section container  */}
             <div className="Hero_section">
                 <img className="Hero_image" 
                 src= {require('../Assets/HeroImg.jpg')} 
-                alt="Hero Image"/>
+                alt="Hero"/>
                 <div className="Hero_overlay">
                     <p className="Style_2">Hello, my name is</p>
                     <h1 className="Style_1">FRANKIE <span id="Style_1_transparent">HRNDZ</span></h1>
@@ -34,10 +29,10 @@ function Home(){
                     src={require('../Assets/next.png')} 
                     alt="Arrow Indicator"/>
                 </div>
-             {/* email component container */}
-            <div className="Email_Container">
-                <Email_Placement />
-            </div>
+             {/* SocialEmail component container */}
+                <div className="SocialEmailContainer">
+                    <SocialIconsEmailPlacement/>
+                </div>
             </div>
         </div>
     )
