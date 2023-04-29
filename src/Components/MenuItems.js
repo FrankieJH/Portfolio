@@ -10,35 +10,35 @@ export const MenuItems = [
     },
     {
         page: 'My Work',
-        iconClosed: <IoIosArrowDown />,
-        iconOpened: <IoIosArrowUp />,
+        iconClosed: <IoIosArrowDown className="DropDown_Indicator"/>,
+        iconOpened: <IoIosArrowUp className="DropDown_Indicator" />,
         className: 'Nav_link',
         subNav: [
             {
                 page: 'Project 00',
-                path: '/',
+                path: '/Project00',
                 className: 'Nav_link'
             },
             {
                 page: 'Project 01',
-                path: '/',
+                path: '/Project01',
                 className: 'Nav_link'
             },
             {
                 page: 'Project 02',
-                path: '/',
+                path: '/Project02',
                 className: 'Nav_link'
             },
             {
                 page: 'Project 03',
-                path: '/',
+                path: '/Project03',
                 className: 'Nav_link'
             },
         ]
     },
     {
         page: 'Contact',
-        path: '/',
+        path: '/Contact',
         className: 'Nav_link'
     },
 ]

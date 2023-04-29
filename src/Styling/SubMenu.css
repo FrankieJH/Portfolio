@@ -1,5 +1,6 @@
 .Menu_item_links {
   display: flex;
+  padding-left: 15px;
   color: #fff;
   justify-content: space-between;
   z-index: 1;
@@ -27,80 +28,58 @@
 }
 /* TODO; find the difference between background color and background and when to use it */
 .Dropdown_Link:hover {
-    background: #DE5B31;
+    background-color: #DE5B31;
     cursor: pointer;
 }
 
-/* Media Query */
+.DropDown_Indicator {
+  margin: 6px 140px 0px 0px;
+}
 
-/* screen size 50 or lower */
-@media only screen and (min-width: 50px) {
+/* Media Query */
+/* screen size 768 or lower */
+@media only screen and (max-width: 768px) {
 
   /* Hero section */
 .Menu_item_links {
     justify-content: center;
     padding: 5px;
-    font-size: 10px;
+    font-size: clamp(0.25rem, 3.75vw, 1rem);
 }
 
 .Dropdown_Link {
     justify-content: center;
-    margin-left: 0px;
-    padding: 5px;
-    font-size: 8px;
+    padding: 0px;
+    font-size: clamp(0.25rem, 3.75vw, 1rem);
 }
 
 .iconOpened :nth-child(1) {
     margin-right: 0px;
   }
+
+  .DropDown_Indicator {
+    padding-left: 5px;
+  }
   
 }
 
-/* screen width size 150 - 279 */
-@media only screen and (min-width: 150px) {
+/* screen Height size 776 or lower */
+@media only screen and (max-height: 776px) {
 
-      /* Hero section */
-    .Menu_item_links {
-        font-size: 15px;
-    }
-    
-    .Dropdown_Link {
-        font-size: 10px;
-    }
-  
+  /* Hero section */
+  .Menu_item_links {
+    justify-content: center;
+    font-size: clamp(0.25rem, 3.75vh, 1rem);
   }
 
+  .Dropdown_Link {
+    justify-content: center;
+    margin-left: 0px;
+    font-size: clamp(0.25rem, 3.75vh, 1rem);
+  }
 
-/* screen width size 280 - 767 */
-@media only screen and (min-width: 280px) {
+  .iconOpened :nth-child(1) {
+    margin-right: 0px;
+  }
 
-  /* Hero section */
-    .Menu_item_links {
-        font-size: 16px;
-    }
-
-    .Dropdown_Link {
-        font-size: 15px;
-    }  
-  
-}
-
-
-/* screen width size 768 */
-@media only screen and (min-width: 768px) {
-
-  /* Hero section */
-    .Menu_item_links {
-        justify-content: space-between;
-        padding: 20px;
-      }
-      
-      .Menu_items {
-          margin-left: 15px;
-      }
-      
-      .Dropdown_Link {
-          font-size: 18px;
-      }
-  
 }

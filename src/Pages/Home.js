@@ -1,14 +1,10 @@
 import React from "react";
 import '../Styling/Home.css';
-import NavBar from '../Components/NavBar'
-import SocialIconsEmailPlacement from "../Components/SocialIconsEmailPlacement";
+import SocialIconsAndEmail from "../Components/SocialIconsAndEmail";
 
 function Home(){
     return(
         <div className="Home">
-            <div className="NavBar_Container">
-                <NavBar />
-            </div>
             {/* Hero section container  */}
             <div className="Hero_section">
                 <img className="Hero_image" 
@@ -29,10 +25,8 @@ function Home(){
                     src={require('../Assets/next.png')} 
                     alt="Arrow Indicator"/>
                 </div>
-             {/* SocialEmail component container */}
-                <div className="SocialEmailContainer">
-                    <SocialIconsEmailPlacement/>
-                </div>
+                 {/* SocialEmail component container */}
+                 <SocialIconsAndEmail />
             </div>
         </div>
     )

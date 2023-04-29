@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import '../Styling/SocialIconsEmailPlacement.css';
+import '../Styling/SocialIconsAndEmail.css';
 
-function SocialIconsEmailPlacement(){
+function SocialIconsAndEmail(){
     return(
-        <div className="SocialIconsEmailPlacement">
+        <div className="SocialIconsAndEmail">
             <div className="SocialIcons_Container">
                 <ul>
                     <li>
@@ -37,4 +37,4 @@ function SocialIconsEmailPlacement(){
     )
 }
 
-export default SocialIconsEmailPlacement;
+export default SocialIconsAndEmail;
