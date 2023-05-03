@@ -5,33 +5,23 @@ import '../Styling/SocialIconsAndEmail.css';
 function SocialIconsAndEmail(){
     return(
         <div className="SocialIconsAndEmail">
-            <div className="SocialIcons_Container">
-                <ul>
-                    <li>
-                        <Link to="https://github.com/FrankieJH">
-                            <img className="github_icon" 
-                            src={require('../Assets/github.png')}
-                            alt="Github icon" /> 
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="https://linkedin.com/in/francisco-hernandez91">
-                            <img className="linkedin_icon" 
-                            src={require('../Assets/linkedin.png')}
-                            alt="Linkedin icon" /> 
-                        </Link>
-                    </li>
-                    <li>
-                        <div id="social_icon_line"></div>
-                    </li>
-                </ul>
+            <div className="SocialIcons_Container">  
+                <Link to="https://github.com/FrankieJH">
+                    <img src={require('../Assets/github.png')}
+                    alt="Github icon" /> 
+                </Link>
+                <Link to="https://linkedin.com/in/francisco-hernandez91">
+                    <img  src={require('../Assets/linkedin.png')}
+                    alt="Linkedin icon" /> 
+                </Link>
+                <hr id="social_icon_line"/> 
             </div>
-            <div className="EmailContainer">
+            <div className="email_Container">
                 <button   
                 onClick={(e) => 
-                {window.location.href ='mailto:example@email.com';}}>
+                {window.location.href ='mailto:kikohernandez91@yahoo.com';}}>
                 kikohernandez91@yahoo.com</button>
-                <div id="email_line"></div>
+                <hr id="email_line"/>
             </div>
         </div>
     )

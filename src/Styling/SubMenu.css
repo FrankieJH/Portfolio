@@ -41,19 +41,19 @@
 @media only screen and (max-width: 768px) {
 
   /* Hero section */
-.Menu_item_links {
-    justify-content: center;
-    padding: 5px;
+  .Menu_item_links {
+     justify-content: center;
+     padding: 5px;
     font-size: clamp(0.25rem, 3.75vw, 1rem);
-}
+  }
 
-.Dropdown_Link {
+  .Dropdown_Link {
     justify-content: center;
     padding: 0px;
     font-size: clamp(0.25rem, 3.75vw, 1rem);
-}
+  }
 
-.iconOpened :nth-child(1) {
+  .iconOpened :nth-child(1) {
     margin-right: 0px;
   }
 

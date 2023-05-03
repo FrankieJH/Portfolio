@@ -2,9 +2,10 @@
    width: 100vw;
    height: 200px;
    margin-top: 10px;
-   position: fixed;
+   position: absolute;
    display: flex;
    justify-content: space-between;
+   z-index: 1;
 }
 
 .Navbar_logo {
@@ -31,7 +32,8 @@
     justify-content: center;
     position: fixed;
     float: right;
-    top:0;
+    z-index: 1;
+    top: 0;
     right: -100%;
     transition: 850ms;
     background-color:#08080A;

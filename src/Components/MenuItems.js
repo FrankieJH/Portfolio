@@ -10,8 +10,8 @@ export const MenuItems = [
     },
     {
         page: 'My Work',
-        iconClosed: <IoIosArrowDown className="DropDown_Indicator"/>,
-        iconOpened: <IoIosArrowUp className="DropDown_Indicator" />,
+        subNav_closed: <IoIosArrowDown className="DropDown_Indicator"/>,
+        subNav_opened: <IoIosArrowUp className="DropDown_Indicator" />,
         className: 'Nav_link',
         subNav: [
             {

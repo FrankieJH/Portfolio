@@ -1,5 +1,6 @@
 import React from "react";
 import '../Styling/Home.css';
+import '../Styling/Font_Styles.css';
 import SocialIconsAndEmail from "../Components/SocialIconsAndEmail";
 
 function Home(){
