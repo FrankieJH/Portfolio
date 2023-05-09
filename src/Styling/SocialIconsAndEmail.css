@@ -1,4 +1,4 @@
-.SocialIconsAndEmail {
+.Socialicons_and_email {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -8,19 +8,19 @@
 } 
 
 /* Social Icons Container */
-.SocialIcons_Container {
+.SocialIcons_container {
     margin: 0px 0px 20px 20px;
     display: flex;
     flex-direction: column;
     grid-area: 4 / 1 / span 1 / span 1;
 }
 
-.SocialIcons_Container img {
+.SocialIcons_container img {
     width: 40px;
     margin-bottom: 20px;
 }
 
-#social_icon_line {
+#Social_icon_line {
     width: 1px; 
     height: 250px;
     margin-left: 15px;
@@ -28,7 +28,7 @@
 }
 
 /*  Email Container  */
-.email_Container {
+.Email_container {
     display: flex;
     position: relative;
     grid-area: 4 / 4 / span 1 / span 1;
@@ -37,7 +37,7 @@
     align-items: flex-end;
 }
 
-.email_Container button {
+.Email_container button {
     width: 200px;
     margin-bottom: 120px;
     margin-right: -75px;
@@ -50,11 +50,7 @@
     font-family: 'Roboto Mono';
 }
 
-.email_Container button:hover {
-    transform: rotate(270deg);
-}
-
-#email_line {
+#Email_line {
     width: 1px; 
     margin-bottom: 25px;
     border: 1px solid #8A91AE;
@@ -67,22 +63,22 @@
 @media only screen and (max-width: 468px) {
 
     /* Hero section */
-    .SocialIcons_Container img {
+    .SocialIcons_container img {
         width: 30px;
     }
 
-    #social_icon_line {
+    #Social_icon_line {
         height: 205px;
         margin-left: 10px;
     }
 
-    .email_Container button {
+    .Email_container button {
         font-size: 14px;
         margin-bottom: 120px;
         margin-right: -85px;
     }
 
-    #email_line {
+    #Email_line {
         height: 205px;
         margin-right: 15px;
     }
@@ -93,22 +89,22 @@
 /* screen Height size 776 or lower */
 @media only screen and (max-height: 776px) {
 
-     /* Hero section */
-     .SocialIcons_Container img {
+    /* Hero section */
+    .SocialIcons_container img {
         width: 20px;
     }
 
-    #social_icon_line {
+    #Social_icon_line {
         height: 40px;
         margin-left: 5px;
     }
 
-    .email_Container button {
+    .Email_container button {
         font-size: 10px;
         margin-bottom: 80px;
     }
     
-    #email_line {
+    #Email_line {
         height: 40px;
     }
 

@@ -4,8 +4,8 @@ import '../Styling/SocialIconsAndEmail.css';
 
 function SocialIconsAndEmail(){
     return(
-        <div className="SocialIconsAndEmail">
-            <div className="SocialIcons_Container">  
+        <div className="Socialicons_and_email">
+            <div className="SocialIcons_container">  
                 <Link to="https://github.com/FrankieJH">
                     <img src={require('../Assets/github.png')}
                     alt="Github icon" /> 
@@ -14,14 +14,14 @@ function SocialIconsAndEmail(){
                     <img  src={require('../Assets/linkedin.png')}
                     alt="Linkedin icon" /> 
                 </Link>
-                <hr id="social_icon_line"/> 
+                <hr id="Social_icon_line"/> 
             </div>
-            <div className="email_Container">
+            <div className="Email_container">
                 <button   
                 onClick={(e) => 
                 {window.location.href ='mailto:kikohernandez91@yahoo.com';}}>
                 kikohernandez91@yahoo.com</button>
-                <hr id="email_line"/>
+                <hr id="Email_line"/>
             </div>
         </div>
     )

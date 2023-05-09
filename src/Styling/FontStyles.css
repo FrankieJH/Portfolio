@@ -1,16 +1,16 @@
 /* font styles */
-.Style_1 {
+.Font_style_1 {
     font-family: 'Poppins';
     color: #DE5B31;
     font-size: clamp(0.5rem, 10.25vw, 7.25rem);
   }
   
-  #Style_1_transparent {
+  #Font_style_1_transparent {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
   }
   
-  .Style_2 {
+  .Font_style_2 {
     font-weight: 400;
     font-family: 'Roboto Mono';
     color: #fff;
@@ -22,7 +22,7 @@
 @media only screen and (max-height: 776px) {
 
     /* Hero section */
-   .Style_2 {
+   .Font_style_2 {
      font-size: clamp(0.25rem, 3.75vh, 1rem);
    }
 }
