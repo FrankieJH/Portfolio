@@ -68,6 +68,31 @@
   animation: jumpInfinite 2s ease-in-out infinite;
 }
 
+/* About Me Section */
+.About_section {
+  display: grid;
+  grid-template: 20% 1fr 1fr / 10% 2fr 1fr 10%;
+  background-color: #08080A;
+}
+
+.About_me_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  grid-area: 2 / 2 / span 2 / span 1;
+  color: white;
+}
+
+.About_image_container {
+  display: flex;
+  flex-direction: column;
+  grid-area: 2 / 3 / span 2 / span 1;
+}
+
+.About_image_container img {
+  width: 400px;
+}
+
 @keyframes jumpInfinite {
   0% {
     margin-top: 0;
