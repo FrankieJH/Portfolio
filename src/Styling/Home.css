@@ -1,23 +1,8 @@
-/* font styles */
-.Style_1 {
-  font-weight: 600;
-  font-size: 6.25rem;
-  font-family: 'Poppins';
-  color: #DE5B31;
+/* TODO: fix bug */
+.Home {
+  z-index: 0;
+  position: absolute;
 }
-
-#Style_1_transparent {
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-}
-
-.Style_2 {
-  font-weight: 400;
-  font-size: 17px;
-  font-family: 'Roboto Mono';
-  color: #fff;
-}
-
 /* Hero section */
 .Hero_section {
   height: 100vh;
@@ -25,6 +10,7 @@
   grid-template: 10% 1fr 1fr 10% / 10% 1fr 2fr 10%;
   display: grid;
   position: relative;
+  z-index: -1;
 }
 
 .Hero_image {
@@ -35,26 +21,25 @@
 }
 
 .Hero_overlay {
-  margin-bottom: 150px;
   grid-area: 2 / 3 / span 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+
 .Hero_overlay :nth-child(2) {
-  margin-top: 20px;
+  margin: 20px 0px 0px 50px;
   line-height: 1;
-  text-align: center;
 }
 
 .Hero_overlay :nth-child(3) {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: right;
 }
 
 .Scroll_indicator {
-  margin-left: 80px;
+  margin-bottom: 20px;
   grid-area: 4 / 2 / span 1 / span 2;
   display: flex;
   flex-direction: column;
@@ -63,7 +48,7 @@
 
 .Indicator_image {
   width: 60px;
-  margin-left: 20px;
+  margin-left: 15px;
   transform: rotate(90deg);
   animation: jumpInfinite 2s ease-in-out infinite;
 }
@@ -103,4 +88,29 @@
   100% {
     margin-top: 0;
   }
+}
+
+/* Media Query width */
+/* screen width size 468 or smaller */
+@media only screen and (max-width: 468px) {
+
+  /* Hero section */
+  .Scroll_indicator {
+    margin-left: 20px;
+  }
+
+  .Indicator_image {
+    width: 40px;
+  }  
+}
+
+/* Media Query  Height */
+/* screen Height size 776 or lower */
+@media only screen and (max-height: 776px) {
+
+  /* Hero section */
+  .Indicator_image {
+    width: 40px;
+    margin-bottom: 50px;
+  }  
 }

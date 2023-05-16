@@ -1,15 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home';
-import Navbar from './Components/NavBar';
+import NavBar from './Components/NavBar'
 
 function App() {
   return (
     <div className="App">
+      <Navbar className="Navbar"/>
       <Routes>
-      <Route exact path='/' element={<NavBar/>}/>
-        <Route  path='/Home' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>}/>
       </Routes>
     </div>
   );
