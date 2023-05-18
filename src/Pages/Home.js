@@ -32,8 +32,8 @@ function Home(){
             {/* About Me Section  */}
             <div className="About_section">
                 <div className="About_me_container">
-                    <h2> <span>00.</span> About Me</h2>
-                    <p> I am a highly motivated and passionate <span>software engineer</span> with a 
+                    <h2 className="Font_style_2"> 00. About Me</h2>
+                    <p className="Font_style_3"> I am a highly motivated and passionate <span>software engineer</span> with a 
                         deep love for problem-solving. Using my expertise in modern programming 
                         languages and technologies, I enjoy tackling complex technical 
                         challenges and developing innovative solutions that exceed expectations.
@@ -49,7 +49,7 @@ function Home(){
                         My dedication to my craft has earned me a reputation as a reliable and 
                         dependable team player who is always willing to go the extra mile.
                     </p>
-                    <div className="About_skills_container">
+                    <div className="About_skills_container Font_style_3">
                         <ul>
                             <li>React.js</li>
                             <li>HTML</li>
@@ -61,11 +61,14 @@ function Home(){
                     </div>
                 </div>
                 <div className="About_image_container" >
-                    <img src={require('../Assets/Profile_placeholder.jpeg')} 
-                    alt="Image of Frankie"/>
-                    <button>Resume</button>
+                    <div className="Profile_image_container">
+                        <img className="Profile_image" 
+                        src= {require('../Assets/Profile_placeholder.jpeg')} 
+                        alt="Frankie"/>
+                    </div>
+                    <button className="Font_style_2">Resume</button>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

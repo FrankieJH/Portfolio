@@ -17,12 +17,19 @@
     font-size: clamp(0.25rem, 3.25vw, 1.25rem);
   }
 
+  .Font_style_3 {
+    font-weight: 400;
+    font-family: 'Roboto Mono';
+    color: #8A91AE;
+    font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+  }
+
   /* Media Query  Height */
 /* screen Height size 776 or lower */
 @media only screen and (max-height: 776px) {
 
     /* Hero section */
-   .Font_style_2 {
+   .Font_style_2, .Font_style_3 {
      font-size: clamp(0.25rem, 3.75vh, 1rem);
    }
 }

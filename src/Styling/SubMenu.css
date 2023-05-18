@@ -31,9 +31,9 @@
     background-color: #DE5B31;
     cursor: pointer;
 }
-/* TODO: Fix arrow dropwdown */
+
 .DropDown_Indicator {
-  margin: 6px 140px 0px 0px;
+  margin-top: 6px;
 }
 
 /* Media Query */

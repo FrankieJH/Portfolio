@@ -55,27 +55,99 @@
 
 /* About Me Section */
 .About_section {
-  display: grid;
-  grid-template: 20% 1fr 1fr / 10% 2fr 1fr 10%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
   background-color: #08080A;
+  box-shadow: 0px 0px 150px #000000;  
 }
 
 .About_me_container {
+  width: 60%;
+  margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  grid-area: 2 / 2 / span 2 / span 1;
-  color: white;
+  flex-direction: column;
+}
+
+.About_me_container h2 {
+  margin-bottom: 20px;
+}
+
+.About_me_container p {
+  margin: 0px 0px 20px 30px;
+}
+
+.About_me_container span {
+  color: #DE5B31;
 }
 
 .About_image_container {
+  margin-top:  80px;
   display: flex;
   flex-direction: column;
-  grid-area: 2 / 3 / span 2 / span 1;
+}
+
+.Profile_image_container {
+  border: 2px solid #fff;
+  width: 375px;
+  height: 380px;
+  padding: 20px;
+  margin-left: 50px;
+  position: relative;
 }
 
 .About_image_container img {
   width: 400px;
+  position: absolute; 
+  margin-top: -60px; 
+  margin-left: -50px;
+}
+
+
+.About_image_container button {
+  width: 200px;
+  height: 65px;
+  align-self: center;
+  margin-top: 50px;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.About_skills_container { 
+  width: 100%;
+}
+
+.About_skills_container ul { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;;
+}
+
+.About_skills_container li { 
+  margin: 20px 0px 0px 20px;
+  width: 30%;
+}
+
+.About_skills_container li:nth-child(1)::before,
+  li:nth-child(2)::before,
+  li:nth-child(3)::before { 
+  content: '>>> ';
+  color:#DE5B31;
+}
+
+.About_skills_container li:nth-child(4)::before,
+  li:nth-child(6)::before { 
+  content: '>> ';
+  color:#DE5B31;
+}
+
+.About_skills_container li:nth-child(5)::before { 
+  content: '> ';
+  color:#DE5B31;
 }
 
 @keyframes jumpInfinite {
