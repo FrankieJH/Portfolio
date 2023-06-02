@@ -59,11 +59,13 @@
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
   background-color: #08080A;
-  box-shadow: 0px 0px 150px #000000;  
+  box-shadow: 0px 0px 150px #000000;
+  padding: 0px 50px 0px 50px;  
+  z-index: -1;
 }
 
 .About_me_container {
-  width: 60%;
+  width: 45%;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -89,18 +91,18 @@
 
 .Profile_image_container {
   border: 2px solid #fff;
-  width: 375px;
-  height: 380px;
+  width: 270px;
+  height: 270px;
   padding: 20px;
   margin-left: 50px;
   position: relative;
 }
 
 .About_image_container img {
-  width: 400px;
+  width: 300px;
   position: absolute; 
-  margin-top: -60px; 
-  margin-left: -50px;
+  margin-top: -40px; 
+  margin-left: -40px;
 }
 
 
@@ -128,8 +130,7 @@
 }
 
 .About_skills_container li { 
-  margin: 20px 0px 0px 20px;
-  width: 30%;
+  width: 44%;
 }
 
 .About_skills_container li:nth-child(1)::before,
@@ -174,6 +175,14 @@
   .Indicator_image {
     width: 40px;
   }  
+}
+
+@media only screen and (max-width: 762px) {
+
+ /* About me section */
+ .About_me_container {
+    width: 95%;
+  }
 }
 
 /* Media Query  Height */
