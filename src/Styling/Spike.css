@@ -1,9 +1,90 @@
 .project_Style1 {
-    width: 800px;
-    background-color: pink;
+    margin: auto;
+    width: 80%;
+    border: none;
 }
 
-.project_Style2 {
-    width: 400px;
-    background-color: pink;
+.project_Style1 img {
+    width: clamp(8rem, 80vw, 40rem);
+    height: 300px;
+    background-color:rgba(0,0,0,0.6);
 }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project_Style1 h2 {
+    font-size: 2rem; 
+    width: 180%;
+}
+
+.project_Style1 p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.card_Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: none;
+    flex-wrap: wrap;
+}
+.project_Style2 {
+    width: 37%;
+    border: none;
+    margin: 20px;
+}
+
+.project_Style2 h2 {
+    font-size: 1.2rem; 
+    width:49%;
+}
+
+.project_Style2 p {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.project_Style3 {
+    font-size: 6rem;
+    position: absolute;
+    margin-top: -50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+#project_Style3 {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 1px #DE5B31;
+}
+
+.project_Style4 {
+    font-size: 6rem;
+    margin-top: -50px;
+    margin-right: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+#project_Style4 {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 1px #DE5B31;
+}
+
+

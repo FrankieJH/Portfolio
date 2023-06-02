@@ -17,6 +17,16 @@
     font-size: clamp(0.25rem, 3.25vw, 1.25rem);
   }
 
+  .Font_style_3 {
+    font-family: 'Roboto Mono';
+    font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+  }
+
+  .Font_style_4 {
+    font-family: 'Roboto Mono';
+    font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+  }
+
   /* Media Query  Height */
 /* screen Height size 776 or lower */
 @media only screen and (max-height: 776px) {
