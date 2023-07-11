@@ -1,4 +1,4 @@
-/* TODO: fix bug regarding z-index issue */
+/* TODO: fix bug regarding z-index issue - MUST BE DONE BY NEXT PULL */
 .Home {
   z-index: 0;
   position: absolute;
@@ -98,7 +98,7 @@
   position: relative;
 }
 
-.About_image_border img {
+.Profile_image_container img {
   width: 300px;
   position: absolute; 
   margin-top: -40px; 

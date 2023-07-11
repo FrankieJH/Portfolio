@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import '../Styling/Home.css';
 import '../Styling/FontStyles.css';
@@ -11,7 +10,7 @@ function Home(){
             <div className="Hero_section">
                 <img className="Hero_image" 
                 src= {require('../Assets/HeroImg.jpg')} 
-                alt="Hero"/>
+                alt=""/>
                 <div className="Hero_overlay">
                     <p className="Font_style_2">Hello, my name is</p>
                     <h1 className="Font_style_1">FRANKIE <span id="Font_style_1_transparent">HRNDZ</span></h1>
@@ -25,7 +24,7 @@ function Home(){
                     <p className="Font_style_2">SCROLL DOWN</p>
                     <img className="Indicator_image" 
                     src={require('../Assets/next.png')} 
-                    alt="Arrow Indicator"/>
+                    alt=""/>
                 </div>
                  {/* SocialEmail component container */}
                  <SocialIconsAndEmail />
@@ -64,7 +63,7 @@ function Home(){
                 <div className="About_image_border" >
                     <div className="Profile_image_container">
                         <img src= {require('../Assets/Profile_placeholder.jpeg')} 
-                        alt="Profile Image"/>
+                        alt=""/>
                     </div>
                     <button className="Font_style_2">Resume</button>
                 </div>
