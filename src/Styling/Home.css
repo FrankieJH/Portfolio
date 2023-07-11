@@ -1,4 +1,4 @@
-/* TODO: fix bug */
+/* TODO: fix bug regarding z-index issue */
 .Home {
   z-index: 0;
   position: absolute;
@@ -83,7 +83,7 @@
   color: #DE5B31;
 }
 
-.About_image_container {
+.About_image_border {
   margin-top:  80px;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@
   position: relative;
 }
 
-.About_image_container img {
+.About_image_border img {
   width: 300px;
   position: absolute; 
   margin-top: -40px; 
@@ -106,7 +106,7 @@
 }
 
 
-.About_image_container button {
+.About_image_border button {
   width: 200px;
   height: 65px;
   align-self: center;
@@ -131,24 +131,6 @@
 
 .About_skills_container li { 
   width: 44%;
-}
-
-.About_skills_container li:nth-child(1)::before,
-  li:nth-child(2)::before,
-  li:nth-child(3)::before { 
-  content: '>>> ';
-  color:#DE5B31;
-}
-
-.About_skills_container li:nth-child(4)::before,
-  li:nth-child(6)::before { 
-  content: '>> ';
-  color:#DE5B31;
-}
-
-.About_skills_container li:nth-child(5)::before { 
-  content: '> ';
-  color:#DE5B31;
 }
 
 @keyframes jumpInfinite {

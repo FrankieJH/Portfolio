@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import '../Styling/Home.css';
 import '../Styling/FontStyles.css';
@@ -51,20 +52,19 @@ function Home(){
                     </p>
                     <div className="About_skills_container Font_style_3">
                         <ul>
-                            <li>React.js</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Redux</li>
-                            <li>Git</li>
+                            <li><span>{'>>> '}</span>React.js</li>
+                            <li><span>{'>>> '}</span>HTML</li>
+                            <li><span>{'>>> '}</span>CSS</li>
+                            <li><span>{'>> '}</span>JavaScript</li>
+                            <li><span>{'> '}</span>Redux</li>
+                            <li><span>{'>> '}</span>Git</li>
                         </ul>
                     </div>
                 </div>
-                <div className="About_image_container" >
+                <div className="About_image_border" >
                     <div className="Profile_image_container">
-                        <img className="Profile_image" 
-                        src= {require('../Assets/Profile_placeholder.jpeg')} 
-                        alt="Frankie"/>
+                        <img src= {require('../Assets/Profile_placeholder.jpeg')} 
+                        alt="Profile Image"/>
                     </div>
                     <button className="Font_style_2">Resume</button>
                 </div>
