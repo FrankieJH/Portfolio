@@ -40,7 +40,7 @@
 }
 
 .Nav_menu.active {
-    right:0;
+    right: 0;
     transition: 350ms;
 }
 

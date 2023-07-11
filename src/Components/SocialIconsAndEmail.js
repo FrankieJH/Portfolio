@@ -8,11 +8,11 @@ function SocialIconsAndEmail(){
             <div className="SocialIcons_container">  
                 <Link to="https://github.com/FrankieJH">
                     <img src={require('../Assets/github.png')}
-                    alt="Github icon" /> 
+                    alt="" /> 
                 </Link>
                 <Link to="https://linkedin.com/in/francisco-hernandez91">
                     <img  src={require('../Assets/linkedin.png')}
-                    alt="Linkedin icon" /> 
+                    alt="" /> 
                 </Link>
                 <hr id="Social_icon_line"/> 
             </div>

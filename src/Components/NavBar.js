@@ -16,14 +16,14 @@ function Navbar() {
                 <img 
                 className="Navbar_logo" 
                 src={require('../Assets/letter-f-2.png')}
-                alt="Logo" />
+                alt="" />
             </Link>
             <Link to="#">
                 <img 
                 className="Menu_bars" 
                 src={require('../Assets/menu-2.png')} 
                 onClick={showSidebar} 
-                alt="Hamburger Menu"/>
+                alt=""/>
             </Link>
         </div>
             <nav className={sidebar ? 'Nav_menu active' : 'Nav_menu'}>
