@@ -11,10 +11,12 @@ function Home(){
                 <img className="Hero_image" 
                 src= {require('../Assets/HeroImg.jpg')} 
                 alt=""/>
-                <div className="Hero_overlay">
+                <div className="Hero_center">
                     <p className="Font_style_2">Hello, my name is</p>
-                    <h1 className="Font_style_1">FRANKIE <span id="Font_style_1_transparent">HRNDZ</span></h1>
-                    <p className="Font_style_2">I am passionate about crafting visually stunning and 
+                    <h1 className="Font_style_1" 
+                        id="Hero_center_child_2">FRANKIE<span id="Font_style_1_transparent">HRNDZ</span></h1>
+                    <p className="Font_style_2"
+                       id="Hero_center_child_3">I am passionate about crafting visually stunning and 
                      engaging web experiences. With a keen eye for design and a 
                      proficiency in modern front-end technologies, I strive to create
                      intuitive and responsive interfaces that enhance user engagement 

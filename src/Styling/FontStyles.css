@@ -30,6 +30,6 @@
 
     /* Hero section */
    .Font_style_2, .Font_style_3 {
-     font-size: clamp(0.25rem, 3.75vh, 1rem);
+     font-size: clamp(0.25rem, 3.75vh, 0.85rem);
    }
 }
