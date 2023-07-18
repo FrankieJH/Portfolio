@@ -19,11 +19,11 @@ function Home(){
                     </h1>
                     <p className="Font_style_2"
                     id="Hero_center_child_3">
-                     I am passionate about crafting visually stunning and 
-                     engaging web experiences. With a keen eye for design and a 
-                     proficiency in modern front-end technologies, I strive to create
-                     intuitive and responsive interfaces that enhance user engagement 
-                     and satisfaction.
+                        I am passionate about crafting visually stunning and 
+                        engaging web experiences. With a keen eye for design and a 
+                        proficiency in modern front-end technologies, I strive to create
+                        intuitive and responsive interfaces that enhance user engagement 
+                        and satisfaction.
                     </p>
                 </div>
                 <div className="Scroll_indicator" >
