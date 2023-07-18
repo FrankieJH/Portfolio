@@ -5,6 +5,7 @@
     align-items: flex-end;
     grid-template: 10% 1fr 1fr 10% / 10% 1fr 2fr 10%;
     display: grid;
+    position: fixed;
 } 
 
 /* Social Icons Container */
