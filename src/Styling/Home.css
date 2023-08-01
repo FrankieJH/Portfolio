@@ -128,6 +128,101 @@
   width: 44%;
 }
 
+/* Project section */
+.Project_section {
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Project_section a {
+  text-decoration: none;
+}
+
+.Project_style_1 {
+  margin: 40px auto;
+  width: 80%;
+  border: none;
+}
+
+.Project_style_1 h2 {
+  font-size: 1.6rem; 
+  width: 180%;
+}
+
+.Project_style_1 p {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.Project_style_1 img {
+  width: clamp(8rem, 80vw, 40rem);
+  height: 300px;
+  background-color:rgba(0,0,0,0.6);
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Container_2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Project_style_2 {
+  display: flex;
+  width: 40%;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+.Project_style_2 h2 {
+  font-size: 1.2rem; 
+  width: 49%;
+}
+
+.Project_style_2 p {
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.Project_style_3 {
+  font-size: 6rem;
+  position: absolute;
+  margin-top: -50px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+#Project_style_3 {
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px #DE5B31;
+}
+
+.Project_style_4 {
+  font-size: 6rem;
+  margin-top: -50px;
+  margin-right: 40px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+#Project_style_4 {
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px #DE5B31;
+}
+
 @keyframes jumpInfinite {
   0% {
     margin-top: 0;
@@ -159,6 +254,39 @@
  /* About me section */
  .About_me_container {
     width: 95%;
+  }
+
+  /* Project section */
+  .Container_2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Project_style_2 {
+    margin: 40px auto;
+    width: 80%;
+    border: none;
+  }
+  
+  .Project_style_2 h2 {
+    font-size: 1.6rem; 
+    width: 180%;
+  }
+  
+  .Project_style_2 p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .Project_style_4 {
+    font-size: 6rem;
+    position: absolute;
+    margin-top: -50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
   }
 }
 

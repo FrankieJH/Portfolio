@@ -1,4 +1,6 @@
 import React from "react";
+import { Card } from 'antd';
+import { Link } from 'react-router-dom'
 import '../Styling/Home.css';
 import '../Styling/FontStyles.css';
 import SocialIconsAndEmail from "../Components/SocialIconsAndEmail";
@@ -74,6 +76,76 @@ function Home(){
                     <button className="Font_style_2">Resume</button>
                 </div>
             </div> 
+            {/* Project section */}
+            <div className="Project_section">
+                <Card
+                className='Project_style_1'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project00">
+                        <div className='Project_style_3'>
+                            0<span id="Project_style_3">0</span>
+                        </div>
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.</p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_2'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project01">
+                        <div className='Container_2 Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <div className='Project_style_4'>
+                                0<span id="Project_style_4">1</span>
+                            </div>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_2'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project02">
+                        <div className='Container_2 Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <div className='Project_style_4'>
+                                0<span id="Project_style_4">2</span>
+                            </div>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_1'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project03">
+                        <div className='Project_style_3'>
+                            0<span id="Project_style_3">3</span>
+                        </div>
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+            </div>
         </div>
     )
 }
