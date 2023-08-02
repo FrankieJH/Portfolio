@@ -1,0 +1,44 @@
+/* Hero section */
+.Project00_hero_section {
+    background-color: #08080A;
+    display: flex;
+    flex-direction: column;
+}
+
+.Project00_hero_image {
+    display:flex;
+    margin: 0px auto;
+    width: 75vw;
+    height: 28.25rem;
+    flex-shrink: 0;
+}
+
+.Project00_hero_container {
+    width: 70vw;
+    margin: 40px auto;
+    column-count: 2;
+}
+
+.Project00_hero_container p {
+    margin-top: 10px;
+}
+
+/* Media Query width */
+/* screen width size 762 or smaller */
+@media only screen and (max-width: 762px) {
+  
+    /* Hero section */
+    .Project00_hero_image {
+        width: 100vw;
+        height: 20.25rem;
+    }
+
+    .Project00_hero_container {
+        width: 80vw;
+        column-count: 1;
+    }
+
+    .Project00_hero_container p {
+        text-align: right;
+    }
+  }
