@@ -71,7 +71,10 @@ function Home(){
                         <img src= {require('../Assets/Profile_placeholder.jpeg')} 
                         alt=""/>
                     </div>
-                    <button className="Font_style_2">Resume</button>
+                    <button 
+                    className="Font_style_2 button_style_1">
+                        Resume
+                    </button>
                 </div>
             </div> 
             {/* Footer Section */}
@@ -86,7 +89,10 @@ function Home(){
                         projects or collaborations. Whether you want to explore a new 
                         idea or just say hello, I'm always open to new opportunities.
                     </p>
-                    <button className="Font_style_3">Get in <br/> touch</button>
+                    <button 
+                    className="Font_style_3 button_style_1">
+                        Get in <br/> touch
+                    </button>
                 </div>
                 <div className="Footer_container_3">
                     <img src= {require('../Assets/code-branch.png')} 
