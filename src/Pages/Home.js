@@ -77,14 +77,16 @@ function Home(){
                 </div>
             </div> 
             {/* Project section */}
+            {/* TODO: Make sure all paths are correct once other projects are complete */}
+            {/* TODO: creat a component for cards and use props to pass information */}
             <div className="Project_section">
                 <Card
-                className='Project_style_1'
+                className='Project_style_wide'
                 hoverable
                 cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
                     <Link to="/Project00">
-                        <div className='Project_style_3'>
-                            0<span id="Project_style_3">0</span>
+                        <div className='Project_number'>
+                            0<span className="Project_number_span">0</span>
                         </div>
                         <div className='Container Font_style_4'>
                             <h2>Project Name Here</h2>
@@ -95,14 +97,14 @@ function Home(){
                     </Link>
                 </Card>
                 <Card
-                className='Project_style_2'
+                className='Project_style_narrow'
                 hoverable
                 cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
                     <Link to="/Project01">
-                        <div className='Container_2 Font_style_4'>
+                        <div className='Container Font_style_4'>
                             <h2>Project Name Here</h2>
-                            <div className='Project_style_4'>
-                                0<span id="Project_style_4">1</span>
+                            <div className='Project_number'>
+                                0<span className="Project_number_span">1</span>
                             </div>
                             <p>A web application that allows users to create and share 
                             custom workout plans, featuring an intuitive user interface 
@@ -112,14 +114,14 @@ function Home(){
                     </Link>
                 </Card>
                 <Card
-                className='Project_style_2'
+                className='Project_style_narrow'
                 hoverable
                 cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
                     <Link to="/Project02">
-                        <div className='Container_2 Font_style_4'>
+                        <div className='Container Font_style_4'>
                             <h2>Project Name Here</h2>
-                            <div className='Project_style_4'>
-                                0<span id="Project_style_4">2</span>
+                            <div className='Project_number'>
+                                0<span className="Project_number_span">2</span>
                             </div>
                             <p>A web application that allows users to create and share 
                             custom workout plans, featuring an intuitive user interface 
@@ -129,12 +131,12 @@ function Home(){
                     </Link>
                 </Card>
                 <Card
-                className='Project_style_1'
+                className='Project_style_wide'
                 hoverable
                 cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
                     <Link to="/Project03">
-                        <div className='Project_style_3'>
-                            0<span id="Project_style_3">3</span>
+                        <div className='Project_number'>
+                            0<span className="Project_number_span">3</span>
                         </div>
                         <div className='Container Font_style_4'>
                             <h2>Project Name Here</h2>

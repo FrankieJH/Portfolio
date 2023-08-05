@@ -139,24 +139,25 @@
   text-decoration: none;
 }
 
-.Project_style_1 {
+.Project_style_wide {
   margin: 40px auto;
   width: 80%;
   border: none;
+  justify-content: space-around;
 }
 
-.Project_style_1 h2 {
+.Project_style_wide h2 {
   font-size: 1.6rem; 
   width: 180%;
 }
 
-.Project_style_1 p {
+.Project_style_wide p {
   text-align: right;
   margin-top: 20px;
   font-size: 13px;
 }
 
-.Project_style_1 img {
+.Project_style_wide img {
   width: clamp(8rem, 80vw, 40rem);
   height: 300px;
   background-color:rgba(0,0,0,0.6);
@@ -164,34 +165,28 @@
 
 .Container {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.Container_2 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.Project_style_2 {
+.Project_style_narrow {
   display: flex;
   width: 40%;
   margin: 40px auto;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.Project_style_2 h2 {
+.Project_style_narrow h2 {
   font-size: 1.2rem; 
-  width: 49%;
+  width: 51%;
 }
 
-.Project_style_2 p {
-  margin-top: -10px;
+.Project_style_narrow p {
   font-size: 13px;
+  margin-top: 40px;
 }
 
-.Project_style_3 {
+.Project_number {
   font-size: 6rem;
   position: absolute;
   margin-top: -50px;
@@ -201,23 +196,7 @@
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
 }
 
-#Project_style_3 {
-  position: absolute;
-  color: transparent;
-  -webkit-text-stroke: 1px #DE5B31;
-}
-
-.Project_style_4 {
-  font-size: 6rem;
-  margin-top: -50px;
-  margin-right: 40px;
-  font-family: 'Poppins';
-  font-weight: 600;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-}
-
-#Project_style_4 {
+.Project_number_span {
   position: absolute;
   color: transparent;
   -webkit-text-stroke: 1px #DE5B31;
@@ -257,37 +236,28 @@
   }
 
   /* Project section */
-  .Container_2 {
+  .Container {
     display: flex;
     justify-content: space-between;
   }
   
-  .Project_style_2 {
+  .Project_style_narrow {
     margin: 40px auto;
     width: 80%;
     border: none;
   }
   
-  .Project_style_2 h2 {
+  .Project_style_narrow h2 {
     font-size: 1.6rem; 
     width: 180%;
   }
   
-  .Project_style_2 p {
+  .Project_style_narrow p {
     text-align: right;
     margin-top: 20px;
     font-size: 13px;
   }
 
-  .Project_style_4 {
-    font-size: 6rem;
-    position: absolute;
-    margin-top: -50px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-  }
 }
 
 /* Media Query  Height */
