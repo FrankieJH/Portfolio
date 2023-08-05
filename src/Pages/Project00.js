@@ -83,6 +83,31 @@ function Project00(){
                     </div>
                 </div>
             </div>
+            {/* footer section */}
+            <div className="Footer_section">
+                <div className="Footer_container_1">
+                    <p className="Font_style_3">What's Next?</p>
+                    <h2 className="Font_style_4">GET IN TOUCH</h2>
+                </div>
+                <div className="Footer_container_2">
+                    <p className="Font_style_3">
+                        Feel free to get in touch with me to discuss any potential 
+                        projects or collaborations. Whether you want to explore a new 
+                        idea or just say hello, I'm always open to new opportunities.
+                    </p>
+                    <button 
+                    className="Font_style_3 button_style_1">
+                        Get in <br/> touch
+                    </button>
+                </div>
+                <div className="Footer_container_3">
+                    <img src= {require('../Assets/code-branch.png')} 
+                    alt=""/>
+                    <h2 className="Font_style_3">
+                        Proudly built By<br/> Francisco Hernandez
+                    </h2>
+                </div>
+            </div>
         </div>
     )
 }
