@@ -79,6 +79,7 @@ function Home(){
             {/* Project section */}
             {/* TODO: Make sure all paths are correct once other projects are complete */}
             {/* TODO: creat a component for cards and use props to pass information */}
+            {/* Condense all image files to smaller sizes on the next branch */}
             <div className="Project_section">
                 <Card
                 className='Project_style_wide'
