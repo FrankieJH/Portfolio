@@ -22,6 +22,19 @@
     font-family: 'Roboto Mono';
     color: #8A91AE;
     font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+  } 
+  
+  .Font_style_4 {
+    font-family: 'Roboto Mono';
+    font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+    color: #000;
+  }
+
+  .Font_style_4 {
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #8A91AE;
+    font-size: clamp(0.25rem, 3.25vw, 1.50rem);
   }
 
   .Font_style_4 {
@@ -37,5 +50,8 @@
     /* Hero section */
    .Font_style_2, .Font_style_3, .Font_style_4 {
      font-size: clamp(0.25rem, 3.75vh, 0.85rem);
+   }
+   .Font_style_4 {
+     font-size: clamp(0.50rem, 3.75vh, 1.25rem); 
    }
 }
