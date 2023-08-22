@@ -9,10 +9,10 @@ function Home(){
     return(
         <div className="Home">
             {/* Hero section container  */}
+            <img className="Hero_image" 
+            src= {require('../Assets/HeroImg.jpg')} 
+            alt=""/>
             <div className="Hero_section">
-                <img className="Hero_image" 
-                src= {require('../Assets/HeroImg.jpg')} 
-                alt=""/>
                 <div className="Hero_center">
                     <p className="Font_style_2">Hello, my name is</p>
                     <h1 className="Font_style_1" 
