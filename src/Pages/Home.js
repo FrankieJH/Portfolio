@@ -1,4 +1,6 @@
 import React from "react";
+import { Card } from 'antd';
+import { Link } from 'react-router-dom'
 import '../Styling/Home.css';
 import '../Styling/FontStyles.css';
 import SocialIconsAndEmail from "../Components/SocialIconsAndEmail";
@@ -74,6 +76,79 @@ function Home(){
                     <button className="Font_style_2">Resume</button>
                 </div>
             </div> 
+            {/* Project section */}
+            {/* TODO: Make sure all paths are correct once other projects are complete */}
+            {/* TODO: create a component for cards and use props to pass information */}
+            {/* Condense all image files to smaller sizes on the next */}
+            <div className="Project_section">
+                <Card
+                className='Project_style_wide'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project00">
+                        <div className='Project_number'>
+                            0<span className="Project_number_span">0</span>
+                        </div>
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.</p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_narrow'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project01">
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <div className='Project_number'>
+                                0<span className="Project_number_span">1</span>
+                            </div>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_narrow'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project02">
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <div className='Project_number'>
+                                0<span className="Project_number_span">2</span>
+                            </div>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+                <Card
+                className='Project_style_wide'
+                hoverable
+                cover={<img alt="example" src= {require('../Assets/spotify.jpg')}  />}>
+                    <Link to="/Project03">
+                        <div className='Project_number'>
+                            0<span className="Project_number_span">3</span>
+                        </div>
+                        <div className='Container Font_style_4'>
+                            <h2>Project Name Here</h2>
+                            <p>A web application that allows users to create and share 
+                            custom workout plans, featuring an intuitive user interface 
+                            and interactive design.
+                            </p>
+                        </div>
+                    </Link>
+                </Card>
+            </div>
         </div>
     )
 }
