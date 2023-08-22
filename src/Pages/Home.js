@@ -32,7 +32,6 @@ function Home(){
                     src={require('../Assets/next.png')} 
                     alt=""/>
                 </div>
-                {/* SocialEmail component container */}
                 <SocialIconsAndEmail />
             </div>
             {/* About Me Section  */}
@@ -95,8 +94,7 @@ function Home(){
                     </button>
                 </div>
                 <div className="Footer_container_3">
-                    <img src= {require('../Assets/code-branch.png')} 
-                    alt=""/>
+                    <img src= {require('../Assets/code-branch.png')} alt=""/>
                     <h2 className="Font_style_3">
                         Proudly built By<br/> Francisco Hernandez
                     </h2>
