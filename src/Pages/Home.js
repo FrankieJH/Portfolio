@@ -172,7 +172,7 @@ function Home(){
                         Proudly built By<br/> Francisco Hernandez
                     </h2>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

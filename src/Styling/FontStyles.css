@@ -22,6 +22,12 @@
     font-family: 'Roboto Mono';
     color: #8A91AE;
     font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+  } 
+  
+  .Font_style_4 {
+    font-family: 'Roboto Mono';
+    font-size: clamp(0.25rem, 3.25vw, 1.25rem);
+    color: #000;
   }
 
   .Font_style_4 {
